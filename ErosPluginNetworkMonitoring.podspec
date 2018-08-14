@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
                   Eros 断网监测，弹框提示用户
                    DESC
 
-  s.homepage     = 'https://github.com/super-chen/eros-plugin-network-monitoring'
+  s.homepage     = 'https://github.com/super-chen/eros-plugin-iOS-network-monitoring'
 
   s.license      = "MIT"
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => 'https://github.com/super-chen/eros-plugin-network-monitoring.git', :tag => s.version }
+  s.source       = { :git => 'https://github.com/super-chen/eros-plugin-iOS-network-monitoring.git', :tag => s.version }
 
   s.dependency 'BMBaseLibrary', '1.2.4'
 
