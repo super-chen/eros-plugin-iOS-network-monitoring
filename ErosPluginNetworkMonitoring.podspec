@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "ErosPluginNetworkMonitoring"
-  s.version      = "0.2.2"
+  s.version      = "0.2.3"
   s.summary      = "eros-plugin-network-monitoring"
 
   s.description  = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/super-chen/eros-plugin-iOS-network-monitoring.git', :tag => s.version }
 
-  s.dependency 'BMBaseLibrary', '1.3.0.11'
+  s.dependency 'BMBaseLibrary', '1.3.0'
 
   s.source_files = "Classes/**/*.{h,m}"
 
