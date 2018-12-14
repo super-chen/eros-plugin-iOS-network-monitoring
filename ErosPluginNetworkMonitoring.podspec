@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/super-chen/eros-plugin-iOS-network-monitoring.git', :tag => s.version }
 
-  s.dependency 'BMBaseLibrary', '1.3.4'
+  s.dependency 'BMBaseLibrary'
 
   s.source_files = "Classes/**/*.{h,m}"
 
